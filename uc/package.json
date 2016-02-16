@@ -1,0 +1,26 @@
+{
+	"name": "uc",
+	"displayName": "VSCode.UnrealScript",
+	"description": "Syntax Highlighting for UnrealScript in VS Code",
+	"version": "0.0.1",
+	"publisher": "redchew",
+	"engines": {
+		"vscode": "^0.10.6"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "unrealscript",
+			"aliases": ["UnrealScript", "unrealscript"],
+			"extensions": [".uc"],
+			"configuration": "./unrealscript.configuration.json"
+		}],
+		"grammars": [{
+			"language": "unrealscript",
+			"scopeName": "source.unrealscript",
+			"path": "./syntaxes/unrealscript.tmLanguage"
+		}]
+	}
+}

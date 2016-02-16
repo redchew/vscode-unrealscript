@@ -1,0 +1,9 @@
+{
+    "version": "0.1.0",
+    "windows": {
+        "command": "D:\\ActionSquare\\SoulBlade\\Binaries\\Win32\\SoulBlade.exe"
+    },
+    "linux": {
+        "command": "/usr/bin/node"
+    }
+}
